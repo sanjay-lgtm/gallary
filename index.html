@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compitable" content="IE-Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallary | A Photo search App</title>
+    <link rel="StyleSheet" href="./assets/common.css" />
+    <link rel="StyleSheet" href="./assets/index.css" />
+  </head>
+  <body>
+    <nav>
+      <!-- <a href="./" ><img src="./assets/logo.png" alt="logo"/></a> -->
+      <a href="./"><h1>GALLARY</h1></a>
+      <form action="./search.html" method="get">
+        <input
+          type="text"
+          name="q"
+          placeholder="Search..."
+          autocomplete="off"
+          class="search"
+        />
+        <input type="submit" value="search" class="search" />
+      </form>
+    </nav>
+    <section>
+      <h1 class="heading">&lt;HOME/&gt;</h1>
+      <div class="container" id="image_container"></div>
+    </section>
+    <footer>
+      <a href="./"><h5>Gallarie</h5></a>
+      <h1>|</h1>
+      <h5>Design and Develop by Sanjay!</h5>
+      <h1>|</h1>
+      <a href="./"><h5>GitHub</h5></a>
+    </footer>
+    <script src="./assets/common.js"></script>
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
